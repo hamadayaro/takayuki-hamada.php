@@ -27,8 +27,12 @@
 
   <meta name="description" content="<?php
     if(is_home()){ ?>浜田卓之のポートフォリオ的なものです。年間の作品や日々のスタディを更新しています。細々と続けていきます。<?php }
+    elseif(is_category('works')){ ?>大学一年の時から制作してきた作品のまとめです、2011-2018現在まで。<?php }
+    elseif(is_category('studys')){ ?>大学一年の時から制作してきた作品のまとめです、2011-2018現在まで。<?php }
+    elseif(is_category('houdini')){ ?>大学一年の時から制作してきた作品のまとめです、2011-2018現在まで。<?php }
+    
     elseif (is_single()){
-      echo mb_substr($content_summary, 0, 60). "..."; }
+      echo mb_substr( str_replace( array( "\r\n" , "\n" , "\r" ), '', strip_tags( $post->post_content ) ), 0, 150 );}
     else { ?><?php bloginfo('description'); ?><?php } ?>">
   <meta name="keywords" content="<?php
     if(is_home()) { ?>浜田 卓之,Takayuki Hamada,Skateboarding<?php }
