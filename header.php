@@ -25,7 +25,16 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@hamadayaro_">
 
-  <meta name="keywords" content="浜田 卓之,Takayuki Hamada,Skateboarding," />
+  <meta name="description" content="<?php
+    if(is_home()){ ?>浜田卓之のポートフォリオ的なものです。年間の作品や日々のスタディを更新しています。細々と続けていきます。<?php }
+    elseif (is_single()){
+      echo mb_substr($content_summary, 0, 60). "..."; }
+    else { ?><?php bloginfo('description'); ?><?php } ?>">
+  <meta name="keywords" content="<?php
+    if(is_home()) { ?>浜田 卓之,Takayuki Hamada,Skateboarding<?php }
+    elseif (is_single()){ ?><?php $posttags = get_the_tags();if ($posttags) {foreach($posttags as $tag) {echo $tag->name . ','; }} ?><?php the_title(); ?><?php }
+    else { ?>浜田 卓之,Takayuki Hamada,Skateboarding<?php } ?>">
+
   <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/images/iphone_icon.png"/>
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
