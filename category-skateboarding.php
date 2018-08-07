@@ -2,7 +2,7 @@
     <section id="main">
         <div id="content">
           <div class="wrap">
-            <h2><a href="http://takayuki-hamada.com/studys">Studys</a> » <a href="">Unity</a></h2>
+            <h2><a href="http://takayuki-hamada.com/studys">Studys</a> » <a href="http://takayuki-hamada.com/studys/skateboarding">Skateboarding</a></h2>
             <nav class="category">
               <?php get_template_part( 'loop', 'catnav' ); ?>
             </nav>

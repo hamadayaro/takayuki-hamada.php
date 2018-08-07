@@ -6,7 +6,7 @@
             <h2><?php the_title();?></h2>
 
             <nav class="category">
-              <?php get_template_part( 'loop', 'nav' ); ?>
+              <?php get_template_part( 'loop', 'catnav' ); ?>
             </nav>
 
             　<p class="time"><?php the_time(‘Y年n月j日’); ?></p>

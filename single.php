@@ -20,17 +20,13 @@ if ( in_category('works') ) {
   include(TEMPLATEPATH . '/single/single-works.php');
 } else if ( in_category('2018') ) {
   include(TEMPLATEPATH . '/single/single-works.php');
-} else if ( in_category('unity') ) {
-  include(TEMPLATEPATH . '/single/single-playing.php');
+} else if ( in_category('skateboarding') ) {
+  include(TEMPLATEPATH . '/single/single-studys.php');
 } else if ( in_category('computational') ) {
-  include(TEMPLATEPATH . '/single/single-playing.php');
+  include(TEMPLATEPATH . '/single/single-studys.php');
 } else if ( in_category('electronic') ) {
-  include(TEMPLATEPATH . '/single/single-playing.php');
-} else if ( in_category('master') ) {
-  include(TEMPLATEPATH . '/single/single-playing.php');
+  include(TEMPLATEPATH . '/single/single-studys.php');
 } else if ( in_category('sketch') ) {
-  include(TEMPLATEPATH . '/single/single-playing.php');
-} else if ( in_category('houdini') ) {
-  include(TEMPLATEPATH . '/single/single-playing.php');
+  include(TEMPLATEPATH . '/single/single-studys.php');
 }
 ?>
