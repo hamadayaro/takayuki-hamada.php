@@ -27,9 +27,9 @@
 
   <meta name="description" content="<?php
     if(is_home()){ ?>浜田卓之のポートフォリオ的なものです。年間の作品や日々のスタディを更新しています。細々と続けていきます。<?php }
-    elseif(is_category('works')){ ?>大学一年の時から制作してきた作品のまとめです、2011-2018現在まで。<?php }
-    elseif(is_category('studys')){ ?>大学一年の時から制作してきた作品のまとめです、2011-2018現在まで。<?php }
-    elseif(is_category('skateboarding')){ ?>大学一年の時から制作してきた作品のまとめです、2011-2018現在まで。<?php }
+    elseif(is_category('work')){ ?>大学一年の時から制作してきた作品のまとめです、2011-現在まで<?php }
+    elseif(is_category('study')){ ?>Skateboarding,Sketch,Computational,Electronicのカテゴリーに分けたstudyの記録<?php }
+    elseif(is_category('skateboarding')){ ?>ここでいうスケートボーディングは、暗喩として表現した私自身の概念としてのスケートボーディングである。<?php }
 
     elseif (is_single()){
       echo mb_substr( str_replace( array( "\r\n" , "\n" , "\r" ), '', strip_tags( $post->post_content ) ), 0, 150 );}
@@ -133,8 +133,8 @@
           <nav id="global-nav">
               <ul>
                 <li><a href="/">HOME</a></li>
-                <li><a href="/works">WORKS</a></li>
-                <li><a href="/studys">STUDYS</a></li>
+                <li><a href="/work">WORK</a></li>
+                <li><a href="/study">STUDY</a></li>
                 <li><a href="/profile">PROFILE</a></li>
                 <li><a href="/contact">CONTACT</a></li>
               </ul>

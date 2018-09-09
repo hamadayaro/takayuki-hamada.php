@@ -7,7 +7,7 @@
               <?php get_template_part( 'loop', 'nav' ); ?>
             </nav>
 
-               <?php get_template_part( 'loop', 'works' ); ?>
+               <?php get_template_part( 'loop', 'work' ); ?>
 
         </div><!-- content -->
     </section><!-- main -->
