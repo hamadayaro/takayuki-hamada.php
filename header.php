@@ -96,7 +96,7 @@
       <div class="inner">
           <div id="mobile-head">
               <h1 class="logo">
-                <a href="http://takayuki-hamada.com">
+                <a href="https://takayuki-hamada.com/">
                   <svg height="50px" version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                   	 y="0px" viewBox="0 0 1487.986 678.068" enable-background="new 0 0 1487.986 678.068"
                   	 xml:space="preserve">

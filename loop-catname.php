@@ -28,4 +28,6 @@
   <h2><a href="https://takayuki-hamada.com/study">Study</a> » <a href="https://takayuki-hamada.com/diary">Diary</a></h2>
 <?php elseif (is_category('skateboarding')) :?>
   <h2><a href="https://takayuki-hamada.com/study">Study</a> » <a href="https://takayuki-hamada.com/skateboarding">Skateboarding</a></h2>
+<?php elseif (is_category('2018_9')) :?>
+  <h2><a href="http://takayuki-hamada.com/diary">Diary</a> » <a href="http://takayuki-hamada.com/studys/2018_9">2018_9</a></h2>
 <?php endif; ?>
