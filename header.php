@@ -28,7 +28,7 @@
   <meta name="description" content="<?php
     if(is_home()){ ?>浜田卓之のポートフォリオ的なものです。年間の作品や日々のスタディを更新しています。細々と続けていきます。<?php }
     elseif(is_category('work')){ ?>大学一年の時から制作してきた作品のまとめです、2011-現在まで<?php }
-    elseif(is_category('study')){ ?>Skateboarding,Sketch,Computational,Electronicのカテゴリーに分けたstudyの記録<?php }
+    elseif(is_category('study')){ ?>その日にあった出来事から生まれる言葉を大切にしたいです。<?php }
     elseif(is_category('skateboarding')){ ?>ここでいうスケートボーディングは、暗喩として表現した私自身の概念としてのスケートボーディングである。<?php }
 
     elseif (is_single()){

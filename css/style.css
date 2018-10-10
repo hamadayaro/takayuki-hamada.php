@@ -192,7 +192,7 @@
     padding-left: 45px;
     letter-spacing: 2px;
     font-size:18pt;
-    font-weight: 200;
+    font-weight: 400;
   }
   #content h2 a {
     color:#666;
@@ -359,9 +359,9 @@
     div.bd_works div.backgroundText p {
       font-weight:lighter;
       font-size:500px;
-      line-height:100px;
+      line-height:70px;
       position:absolute;
-      left:-300px;
+      left:-100px;
       color:#fff;
       text-shadow: black 0.5px 0.5px 0px, black -0.5px 0.5px 0px,
                    black 0.5px -0.5px 0px, black -0.5px -0.5px 0px;
@@ -419,7 +419,7 @@
   }
   #content .single p.time  {
     float:right;
-    width:101px;
+    width:110px;
     margin:-55px 45px 0px 0px;
     font-size: 10pt
   }
